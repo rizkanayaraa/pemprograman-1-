@@ -8,7 +8,7 @@ public class Main {
 
         System.out.println("Masukan pilihan 1 atau 2: ");
         int pilihan = input.nextInt();
-        input.nextLine(); 
+        input.nextLine();
 
         if (pilihan == 1) {
             System.out.println("Pilih reg A, B, CK, CS: ");
@@ -36,15 +36,13 @@ public class Main {
             String nama = input.nextLine();
             System.out.println("Masukan Prodi:");
             String prodi = input.nextLine();
-                        
 
             System.out.println("========================================================");
             System.out.println("Nama: " + nama + "\nProdi: " + prodi + "\nReg: " + pilih);
             System.out.println("========================================================");
-                        
+
         } else if (pilihan == 2) {
             System.out.println("Anda keluar dari program");
         }
     }
 }
-
